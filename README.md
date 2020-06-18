@@ -1,2 +1,1 @@
-# tindog
-Angela Yu class bootstrap
+TinDog Starting Files

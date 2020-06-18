@@ -1,0 +1,169 @@
+/*
+--fontfamily
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*heading*/
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*container*/
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*section*/
+.white-section{
+  background-color: white;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Navigation bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Download button*/
+.download-button{
+margin: 5% 3% 5% 0;
+}
+
+/*title*/
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/*Section features*/
+#features{
+  position: relative;
+   /* z-index : 1; pas nécessaire étant donné que image/feature une position et que le dernier élément ayant une position sera au dessus de l'autre automatiquement*/
+}
+.features-title{
+  font-size: 1.5rem;
+}
+
+.features-icon{
+  color: #ef8172;
+  font-size: 55px;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+.features-element{
+  padding: 0 45px 20px 0;
+}
+
+
+/*testimonnials*/
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*press*/
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*pricing section*/
+#pricing{
+  padding: 100px;
+}
+
+pricing-column{
+  padding: 3% 2%;
+}
+
+.price-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/*call to action*/
+
+
+/*footer*/
+.icon-footer{
+  padding: 0 1.5% 2%;
+  font-size: 20px;
+}
